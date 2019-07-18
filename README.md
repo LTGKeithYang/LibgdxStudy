@@ -1,2 +1,0 @@
-# LibgdxStudy
-LibgdxStudy
