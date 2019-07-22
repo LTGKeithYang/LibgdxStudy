@@ -1,6 +1,6 @@
 package com.mygdx.game.desktop;
 
-import Game36.Game36;
+import BlackJackGameAssets.BlackJackGame;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 
@@ -10,6 +10,6 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.width=1024;
 		config.height=768;
-		new LwjglApplication(new Game36(), config);
+		new LwjglApplication(new BlackJackGame(), config);
 	}
 }
